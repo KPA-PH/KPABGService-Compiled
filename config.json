@@ -1,0 +1,29 @@
+{
+  "name": "KPA Background Service",
+  "description": "The Service Worker Background",
+  "author": {
+    "name": "King Paulo Aquino",
+    "email": "me@kpa.ph",
+    "mobile": "+639605614295"
+  },
+  "framework": ".NET8 C# Console",
+  "license": {
+    "name": "King Paulo Aquino",
+    "company": "KPA.ph",
+    "key": "f35529f7-e8d4-4727-a626-2351d2c31587"
+  },
+  "worker_sleep_mins": 1,
+  "logs_directory": "C:\\KPABGService\\Logs",
+  "included_config_path": "C:\\KPABGService\\Config",
+  "service_dependencies": "webmgr,shMonitor",
+  "service_apps": [
+    {
+      "identifier_name": "webmgr",
+      "working_directory": "C:\\KPABGService",
+      "program_path": "C:\\KPABGService\\webmgr.exe",
+      "arguments": null,
+      "http_timeout": 3,
+      "sleep_second": 60
+    }
+  ]
+}

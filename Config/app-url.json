@@ -1,0 +1,8 @@
+{
+    "identifier_name": null,
+    "working_directory": null,
+    "program_path": "url-browser",
+    "arguments": "https://api.publicapis.org/entries",  
+    "http_timeout": 3,
+    "sleep_second": 60
+}
