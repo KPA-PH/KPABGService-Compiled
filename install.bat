@@ -1,1 +1,1 @@
-SC create KPABGService binpath=C:\KPABGService\KPABGService.exe auto=start
+SC create KPABGService binpath=C:\KPABGService\KPABGService.exe start=auto
